@@ -9,10 +9,6 @@ library(RCurl)
 
 stripwhite <- function(x) gsub("\\s*$", "", gsub("^\\s*", "", x))
 
-teams_schedule <- read.csv("~/OneDrive - University of Hartford/NCAA Baseball scrapR/NCAA_base_schedule.csv")
-
-# NCAA_pbp_17 <- read.csv("~/OneDrive - University of Hartford/NCAA Baseball scrapR/pbp_2017.csv")
-
 base_url='http://stats.ncaa.org/game/play_by_play/'
 
 
